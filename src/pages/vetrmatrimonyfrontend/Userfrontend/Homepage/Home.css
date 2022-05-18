@@ -1,0 +1,60 @@
+.fas {
+  color: #e30b5c;
+}
+
+.Homepage {
+  height: 80vh;
+}
+
+.Homepagebanner {
+  background-image: url("../images/Background.jpg");
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.button {
+  background-color: #dc143c;
+}
+
+.welcome {
+  background-image: url("../images//Background2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+}
+.contactnumber {
+  color: #2e3192;
+}
+.fontcolor {
+  color: #ec008b;
+}
+.backgroundColor {
+  color: #ec008b;
+}
+.h4 {
+  background-color: #e30b5c;
+  color: #fff !important;
+  height: 35px;
+  padding: 6px 5px 0px 5px;
+  border-radius: 0.25rem;
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > * {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
